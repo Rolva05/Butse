@@ -3,14 +3,14 @@ import {
 } from "react-router-dom";
 
 import CreatePost
-  from "../components/CreatePost";
+  from "./CreatePost";
 
 import Post
-  from "../components/Post";
+  from "./Post";
 
 import {
   useAppContext
-} from "../context/AppContext";
+} from "./AppContext";
 
 
 export default function Feed() {

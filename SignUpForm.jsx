@@ -7,12 +7,14 @@ import ProfilePreview
 
 import {
   useAppContext
-} from "../context/AppContext";
+} from "./AppContext";
 
 
 const campuses = [
 
   "Johannesburg",
+  
+  "Polokwane",
 
   "Pretoria",
 

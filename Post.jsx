@@ -1,6 +1,6 @@
 import {
   useAppContext
-} from "../context/AppContext";
+} from "./AppContext";
 
 
 export default function Post({

@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
-import Home from "./views/Home";
-import About from "./views/About";
-import SignUpForm from "./components/SignUpForm";
-import Profile from "./views/Profile";
-import Feed from "./views/Feed";
+import Home from "./Home";
+import About from "./About";
+import SignUpForm from "./SignUpForm";
+import Profile from "./Profile";
+import Feed from "./Feed";
 
 export default function App() {
 

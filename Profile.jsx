@@ -4,7 +4,7 @@ import {
 
 import {
   useAppContext
-} from "../context/AppContext";
+} from "./AppContext";
 
 
 export default function Profile() {

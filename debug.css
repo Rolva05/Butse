@@ -1,0 +1,10 @@
+/* Debug helpers to reveal hidden elements and layout outlines */
+* { outline: 2px dashed rgba(255,0,0,0.6) !important; }
+#root { outline: 6px solid rgba(0,200,0,0.9) !important; min-height: 100vh !important; }
+.app-shell { outline: 6px solid rgba(0,120,255,0.9) !important; }
+.main-content { outline: 4px solid rgba(255,200,0,0.9) !important; min-height: 200px !important; }
+.hero, .page-section, .feature-grid, .preview-card { opacity: 1 !important; visibility: visible !important; transform: none !important; }
+body { background: #fff !important; }
+
+/* High z-index to ensure overlay visible */
+.debug-overlay { position: fixed !important; left: 10px; bottom: 10px; z-index: 99999; background: #000; color: #fff; padding: 6px 10px; border-radius: 6px; font-weight: 700; font-size: 13px; }
